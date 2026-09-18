@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------
+# Docs site (Astro v7 + Starlight lives in docs/)
+# ---------------------------------------------------------------------------
+docs/node_modules/
+docs/dist/
+docs/.astro/
+docs/.vercel/
+docs/.netlify/
+
+# Node / npm logs (package-lock.json is intentionally TRACKED for reproducible CI builds)
+*.log
+npm-debug.log*
+
+# ---------------------------------------------------------------------------
+# Embedded / C build artefacts (Code Composer Studio, TI ARM CGT)
+# ---------------------------------------------------------------------------
+*.o
+*.obj
+*.out
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+Debug/
+Release/
+*.ccsproject.local
+*.cproject.local
+*.project.local
+*.tcf.bak
+
+# Generated RTE / DaVinci artefacts that are reproducible from configuration
+# (uncomment if your project regenerates these on each build)
+# **/GenData/
+# **/GenDataRte/
+# **/GenDataOS/
+
+# ---------------------------------------------------------------------------
+# OS / editor junk
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# Python helper tooling
+__pycache__/
+*.py[cod]
+.venv/

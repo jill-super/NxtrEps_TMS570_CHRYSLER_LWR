@@ -1,0 +1,42 @@
+/* Custom Starlight overrides for the EPS documentation site. */
+
+:root {
+  --sl-color-accent-low: #1d2a44;
+  --sl-color-accent: #3b82c4;
+  --sl-color-accent-high: #bcd6f5;
+}
+
+.origin-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--sl-color-gray-5);
+  background: var(--sl-color-gray-6);
+  margin-right: 0.4rem;
+}
+
+.origin-custom {
+  border-color: #2f7d4f;
+  background: #e7f4ec;
+  color: #1d5c34;
+}
+
+.origin-vector {
+  border-color: #7c3aed;
+  background: #efe7fd;
+  color: #4c1d95;
+}
+
+.origin-ti {
+  border-color: #b45309;
+  background: #fdf1e0;
+  color: #7c3f0c;
+}
+
+.origin-thirdparty {
+  border-color: #0e7490;
+  background: #e0f5fa;
+  color: #0b5567;
+}
